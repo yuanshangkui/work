@@ -12,9 +12,9 @@ public class TestComplex {
         Complex y = new Complex(temp);
         System.out.println("x:" + x.toString());
         System.out.println("y:" + y.toString());
-        System.out.println("(x + y) = " + x.add(y).toString());
-        System.out.println("(x - y) = " + x.minus(y).toString());
-        System.out.println("(x * y) = " + x.multiply(y).toString());
+        System.out.println("(x + y) = " + x.add(y));
+        System.out.println("(x - y) = " + x.minus(y));
+        System.out.println("(x * y) = " + x.multiply(y));
 
     }
 }

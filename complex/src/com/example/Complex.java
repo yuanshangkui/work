@@ -27,4 +27,15 @@ package com.example;
  */
 public class Complex {
 
+    public Complex add(Complex C) {
+        return null;
+    }
+
+    public Complex minus(Complex C) {
+        return null;
+    }
+
+    public Complex multiply(Complex C) {
+        return null;
+    }
 }
