@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.Scanner;
 
+/**
+ * @author yuansk
+ */
 public class TestMyExplorer {
     public static void main(String[] args) throws IOException {
         MyExplorer me = new MyExplorer();

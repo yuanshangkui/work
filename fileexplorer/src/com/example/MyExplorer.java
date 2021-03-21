@@ -6,6 +6,9 @@ import java.io.*;
 import java.util.Objects;
 import java.util.Scanner;
 
+/**
+ * @author yuansk
+ */
 public class MyExplorer implements Explorer {
 
     public void copyOnlyFile(File souFile ,File desFile) {
