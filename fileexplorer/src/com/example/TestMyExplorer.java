@@ -1,3 +1,7 @@
+package com.example;
+
+import com.example.MyExplorer;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Collections;
@@ -41,46 +45,6 @@ public class TestMyExplorer {
         String s2 = "abc";
         System.out.println();
 //
-
-    }
-}
-abstract class abc {
-    int i;
-    public int f1() {
-        int inPut = new Scanner(System.in).nextInt();
-        return 1/inPut;
-    }
-    public abstract int f2();
-}
-interface abcd {
-    default void f(){
-
-    }
-
-    void ff();
-}
-class a extends abc implements abcd{
-
-    @Override
-    public int f1() {
-        return super.f1();
-    }
-
-    void f3(){
-
-    }
-
-    int  f3(String s  ){
-        return 1;
-    }
-
-    @Override
-    public int f2() {
-        return 0;
-    }
-
-    @Override
-    public void ff() {
 
     }
 }
