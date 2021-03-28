@@ -6,6 +6,7 @@ import java.io.IOException;
 
 /**
  * 实现此接口，完成功能
+ * 考虑，如果File对象是文件夹
  */
 public interface Explorer {
     /**
@@ -31,8 +32,9 @@ public interface Explorer {
     /**
      * 重命名文件
      * @param desFile
+     * @param newName 新名字
      */
-    void renameFile(File desFile);
+    void renameFile(File desFile,String newName);
 
     /**
      * 打印文件夹中的所有文件的文件名
