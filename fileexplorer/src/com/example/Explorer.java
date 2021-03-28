@@ -69,21 +69,21 @@ public interface Explorer {
     void printFile(File file);
 
     /**
-     * 将数据写入文件
+     * 将数据写入文件，不得覆盖，只能追加
      * @param file
      * @param data
      */
     void writeData(File file,String data) throws IOException;
 
     /**
-     * 根据正则表达式在查找对应文件
-     * @param root
-     * @param regex
+     * 根据正则表达式在查找对应文件夹下匹配的所有文件，并输出
+     * @param root 文件夹
+     * @param regex 正则表达式
      */
     void listFilesMatchRegex(File root,String regex);
 
     /**
-     * 模糊查找
+     * 模糊查找文件名中包含name的文件，并输出
      * @param root
      * @param name
      */
