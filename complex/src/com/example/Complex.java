@@ -1,5 +1,7 @@
 package com.example;
 
+import java.util.Objects;
+
 /**
  * @author: yuansk
  * @date: 2021/1/26 / 17:16
@@ -27,15 +29,15 @@ package com.example;
  */
 public class Complex {
 
-    public Complex add(Complex C) {
+    public Complex add(Complex c) {
         return null;
     }
 
-    public Complex minus(Complex C) {
+    public Complex minus(Complex c) {
         return null;
     }
 
-    public Complex multiply(Complex C) {
+    public Complex multiply(Complex c) {
         return null;
     }
 }
