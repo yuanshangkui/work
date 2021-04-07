@@ -24,7 +24,7 @@ import java.util.Objects;
  *
  * 重写方法：
  * toString: 要求显示的字符串为 a+bi形式 ，如 -1+2i, 1-2i
- * equals：a,b相等时返回true
+ * equals：this对象与传入对象的a,b分别相等时返回true
  *
  */
 public class Complex {
